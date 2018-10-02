@@ -14,8 +14,8 @@ stringifier.pipe(writableStream);
 let count = 0;
 
 // Set range for log getting.
-const startTime = moment('2018-10-01T00:00:00+09:00');
-const endTime = moment('2018-10-30T23:59:59+09:00');
+const startTime = moment('2000-01-01T00:00:00+09:00');
+const endTime = moment('2200-12-31T23:59:59+09:00');
 
 client.calls.each({
     startTimeBefore: endTime.utc().format(),
