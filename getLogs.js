@@ -30,5 +30,6 @@ client.calls.each({
     output.status = call.status;
     output.price = Math.abs(call.price);
     console.log(++count);
+    console.log(output);
     stringifier.write(output);
 });
